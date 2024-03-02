@@ -19,7 +19,10 @@ function About(props) {
       <h2>About Me</h2>
       <P bio={props.bio}/>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <Links links={props.links}/>
+      <Links 
+      github={props.github}
+      linkedin={props.linkedin}
+      />
     </div>
   );
 };

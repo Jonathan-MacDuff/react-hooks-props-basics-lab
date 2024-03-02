@@ -20,7 +20,8 @@ function App() {
       />
       <About 
       bio={user.bio}
-      links={user.links}
+      github={user.links.github}
+      linkedin={user.links.linkedin}
       />
     </div>
   );
